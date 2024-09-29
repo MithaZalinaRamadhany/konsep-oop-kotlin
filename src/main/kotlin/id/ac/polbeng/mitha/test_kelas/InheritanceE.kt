@@ -18,5 +18,5 @@ fun main(args: Array<String>) {
     person.age = -5 // Works
 
     val checkedPerson = CheckedPerson()
-    checkedPerson.age = -5 // Throws IllegalArgumentException : Age can not be negative
+    checkedPerson.age = -5 // Melempar IllegalArgumentException: Usia tidak boleh negatif
 }
